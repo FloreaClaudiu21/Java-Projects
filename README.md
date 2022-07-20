@@ -1,4 +1,4 @@
-# MINECRAFT PROJECTS
+# MINECRAFT AND LEARNING PROJECTS 
 <img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/Minecraft_JavaBedrock_Net_1170x500.jpg"/>
 
 <div>
