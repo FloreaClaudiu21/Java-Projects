@@ -1,0 +1,18 @@
+## =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= ##
+##   ~~~~~  PortableFurnace v1.9  ~~~~~~
+##            > Dev: xSirTato
+## =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= ##
+
+version: 1.9
+author: xSirTato
+api-version: 1.13
+name: PortableFurnace
+main: me.furnace.IMain
+description: Create portable usable furnaces.
+
+commands:
+  portablefurnace:
+     aliases: [pf, portablef, pfurnace]
+     description: Main command of the plugin.
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

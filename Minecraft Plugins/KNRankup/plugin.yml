@@ -1,0 +1,24 @@
+#####################################
+###########  KNRANKUP  ##############
+#####################################
+
+name: KNRankup
+version: 3.0
+database: false
+authors: [xSirTato]
+main: me.rankup.KNRankup
+depend: [PlaceholderAPI, SimpleAPI]
+description: Rankup plugin for prison servers.
+
+
+commands:
+  rankup:
+    description: Rankup to the next rank.
+  rank:
+    description: Check your current rank.
+  ranks:
+    description: Check the ranks list.
+  toggle:
+    description: Toggle the scoreboard.
+
+###############################################

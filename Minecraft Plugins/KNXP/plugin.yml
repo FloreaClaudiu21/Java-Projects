@@ -1,0 +1,13 @@
+#####################################
+############  KNAFKXP  ##############
+#####################################
+
+name: KNAFKXP
+version: 2.0
+database: false
+authors: [xSirTato]
+main: me.afk.KNAFK
+description: Gain xp levels while afk!
+depend: [WorldGuard, SimpleAPI]
+
+###############################################

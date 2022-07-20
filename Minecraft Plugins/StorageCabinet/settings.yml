@@ -1,0 +1,286 @@
+##############################################
+#######  SETTINGS CONFIGURATION FILE  ########
+##############################################
+
+# Enable or disable the debug messages
+debug: true
+# Allow the hoppers to transport items in the cabinet
+hopper_system: true
+# Enable or disable the backup system
+backup:
+  enabled: true
+  # The backup it's gonna run every 30 minutes
+  time: 30
+# Enable or disable the particles
+particles:
+  drop: true
+  break: true
+  place: true
+  pickup: true
+  despawn: true
+  explode: true
+  itemtocabinet: true
+# List of the worlds where the plugin it's gonna be disabled
+disabled_worlds:
+ - world_the_end
+# List of the default permissions
+permissions:
+  command_menu: storagecabinet.cmd.menu
+  command_get: storagecabinet.cmd.get
+  command_getid: storagecabinet.cmd.getid
+  command_preview: storagecabinet.cmd.preview
+  command_delete: storagecabinet.cmd.delete
+  command_locate: storagecabinet.cmd.locate
+  command_reload: storagecabinet.cmd.reload
+  cabinet_use: storagecabinet.use
+  cabinet_break: storagecabinet.break
+  cabinet_place: storagecabinet.place
+  cabinet_craft: storagecabinet.craft
+  cabinet_bypass: storagecabinet.bypass
+  cabinet_use_admin: storagecabinet.use.admin
+# List of the recipes, you can disable or enable them and also edit the name or lores
+recipes:
+  oak_cabinet:
+    enabled: true
+    name: "&6&n&kii&r&6&n &e&n&lOAK CABINET&6&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  darkoak_cabinet:
+    enabled: true
+    name: "&6&n&kii&r&6&n &e&n&lDARKOAK CABINET&6&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  spruce_cabinet:
+    enabled: true
+    name: "&6&n&kii&r&6&n &e&n&lSPRUCE CABINET&6&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  birch_cabinet:
+    enabled: true
+    name: "&6&n&kii&r&6&n &e&n&lBIRCH CABINET&6&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  jungle_cabinet:
+    enabled: true
+    name: "&6&n&kii&r&6&n &e&n&lJUNGLE CABINET&6&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  acacia_cabinet:
+    enabled: true
+    name: "&6&n&kii&r&6&n &e&n&lACACIA CABINET&6&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  crimson_cabinet:
+    enabled: true
+    name: "&d&n&kii&r&d&n &5&n&lCRIMSON CABINET&d&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  warped_cabinet:
+    enabled: true
+    name: "&b&n&kii&r&b&n &3&n&lWARPED CABINET&b&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  cobble_cabinet:
+    enabled: true
+    name: "&7&n&kii&r&7&n &8&n&lCOBBLE CABINET&7&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  coal_cabinet:
+    enabled: true
+    name: "&8&n&kii&r&8&n &0&n&lCOAL CABINET&8&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  iron_cabinet:
+    enabled: true
+    name: "&7&n&kii&r&7&n &f&n&lIRON CABINET&7&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  gold_cabinet:
+    enabled: true
+    name: "&e&n&kii&r&e&n &6&n&lGOLD CABINET&e&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  lapis_cabinet:
+    enabled: true
+    name: "&3&n&kii&r&3&n &b&n&lLAPIS CABINET&3&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  redstone_cabinet:
+    enabled: true
+    name: "&c&n&kii&r&c&n &4&n&lREDSTONE CABINET&c&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  diamond_cabinet:
+    enabled: true
+    name: "&b&n&kii&r&b&n &b&n&lDIAMOND CABINET&b&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  emerald_cabinet:
+    enabled: true
+    name: "&2&n&kii&r&2&n &2&n&lEMERALD CABINET&2&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  netherite_cabinet:
+    enabled: true
+    name: "&5&n&kii&r&5&n &5&n&lNETHERITE CABINET&5&n &k&nii&r"
+    lores:
+        - "&a"
+        - "&7&o>> &3Free Slots: &f{FREE_SLOTS}"
+        - "&7&o>> &3Available Slots: &f{SLOTS}"
+        - "&7&o>> &3Capacity Left: &f{FREE_SPACE}%"
+        - "&7&o>> &3ID: &f{ID}"
+        - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+# List of the default messages, change them as you wish..
+messages:
+  prefix: "&7>>[&c&lStorage&e&lCabinet&7]<<"
+  usage:
+        - "&7----->>[&c&lStorage&e&lCabinet&7]<<-----"
+        - "&7&o>> &3/cabinet menu - &8Open the main menu"
+        - "&7&o>> &3/cabinet get - &8Receive a cabinet with the specified ID"
+        - "&7&o>> &3/cabinet delete <ID> - &8Delete the cabinet from database and his location"
+        - "&7&o>> &3/cabinet getid <ID> - &8Get the id of the cabinet you are looking at or by specifying the ID"
+        - "&7&o>> &3/cabinet locate <ID> - &8Get the cabinet location by specifying the ID"
+        - "&7&o>> &3/cabinet preview <ID> - &8Open the inventory of the cabinet you are looking at or by specifying the ID"
+        - "&7&o>> &3/cabinet reload - &8Reload the plugin"
+        - "&7-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  reload: "{PREFIX} &aPlugin have been reloaded successfully."
+  noperm_craft: "{PREFIX} &cYou don't have permission to craft storage cabinets."
+  noperm_place: "{PREFIX} &cYou don't have permission to place that cabinet."
+  already_placed: "{PREFIX} &cThat cabinet have been placed already in another location, use /cabinet locate to find the location."
+  notplaced: "{PREFIX} &cThe cabinet with the ID: {ID} have not been placed yet."
+  protinteract: "{PREFIX} &cI'm sorry but you can't access that cabinet here."
+  protbreak: "{PREFIX} &cI'm sorry but you can't break that cabinet here."
+  protplace: "{PREFIX} &cI'm sorry but you can't place that cabinet here."
+  noperm_break: "{PREFIX} &cYou don't have permission to break that cabinet."
+  noperm_use: "{PREFIX} &cYou don't have permission to interact with that cabinet."
+  noperm_cmd: "{PREFIX} &cYou don't have permission to use this command."
+  denypack: "&cYou must accept the texture pack in order to join the server."
+  receive_cabinet: "{PREFIX} &aYou received &e1 &f{CABINET}&r &awith the ID: &d{ID}"
+  receive_cabinet_fullinv: "{PREFIX} &cYour inventory was full, &e1 &f{CABINET}&r &cwith the ID: &6{ID} &chave been dropped on the ground."
+  disabled_world: "{PREFIX} &cThe plugin have been disabled in this world."
+  specifyid: "{PREFIX} &cInvalid ID, you must specify the ID of the cabinet."
+  cabinetnotfound: "{PREFIX} &cThe cabinet with the ID: &d{ID} &chave not been found in the database, removing the item..."
+  cabinetclosing: "{PREFIX} &cPlease wait for the cabinet to close."
+  nocabinet: "{PREFIX} &cYou must be looking at the cabinet."
+  idcabinet: "{PREFIX} &dThe cabinet you are looking at has the ID: &e{ID}"
+  idnotfound: "{PREFIX} &cNo cabinet with the ID: {ID} have been found."
+  loccabinet: "{PREFIX} &6The cabinet with the ID: &e{ID} &6have been found at the location: &d{LOC}"
+  previewcabinet: "{PREFIX} &aPreview of the cabinet with the ID: &e{ID} &ahave been open."
+  deletecabinet: "{PREFIX} &cThe cabinet with the ID: &8{ID} &chave been deleted from the database and location."
+  maingui_title: "&0&n&l&o>> &0&n&lStorage Cabinets | Choose a cabinet"
+  cabinetgui_title: "&0&n&l&o>> &0&n&l{TYPE} - Page {PAGE}/{MAX_PAGE}"
+  cabinetgui_filter: "&0&n&l&o>> &0&n&l{TYPE} - Hopper Settings"
+  cabinetgui_arrow: "&d&l<= Main Page"
+  cabinetgui_leftarrow: "&d&l{PREV_PAGE} <= Prev Page"
+  cabinetgui_rightarrow: "&d&lNext Page => {NEXT_PAGE}"
+  cabinetgui_alreadyone: "{PREFIX} &cI'm sorry but you can't have more than 1."
+  cabinetgui_alreadythere: "{PREFIX} &cIt seems like the item &7{ITEM} &chave been already placed in this list."
+  cabinetgui_hopper: "      &3&lCabinet Settings | Filter"
+  cabinetgui_hopper_lores:
+   - "  &7You can filter the items that gets in or"
+   - "&7out of the cabinet by specifying them inside"
+   - "&7of a menu."
+   - "  &7&o>> &3Right-Click to open the filter menu"
+   - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  cabinetgui_out: "                 &c&lOUT"
+  cabinetgui_out_lores:
+   - "  &7Here you can specify the items you"
+   - "&7wish to leave the cabinet, you must"
+   - "&7put a copy of the item in the available"
+   - "&7slots below."
+   - "  &c&lNOTE: &fOnly the items you specify"
+   - "&fgonna leave the cabinet, the others are"
+   - "&fgonna be rejected and remain in the cabinet."
+   - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  cabinetgui_in: "                 &2&lIN"
+  cabinetgui_in_lores:
+   - "  &7Here you can specify the items you"
+   - "&7wish to enter the cabinet, you must"
+   - "&7put a copy of the item in the available"
+   - "&7slots below."
+   - "  &c&lNOTE: &fOnly the items you specify"
+   - "&fgonna enter the cabinet, the others are"
+   - "&fgonna be rejected and remain in the hopper."
+   - "&8-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+
+#######################################################################

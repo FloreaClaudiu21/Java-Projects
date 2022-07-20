@@ -1,0 +1,10 @@
+version: 1.0
+author: xSirTato
+name: StorageCabinet
+main: me.storagecabinet.StorageCabinet
+api-version: 1.16
+
+commands:
+  storagecabinet:
+    aliases: [cabinet, scabinet, cabinets]
+    description: StorageCabinet main command
